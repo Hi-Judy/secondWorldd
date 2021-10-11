@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 1010%;
+}
+
+body{
+    border: 1px solid red;
+    font-family:'Times New Roman', Times, serif;
+    width: 60%;
+    height: 1010px;
+}
+
+div>header{
+    border: 1px solid gray;
+    background-color: rgb(221, 17, 177);
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    margin: 20px;
+}
+
+div>header>span{
+    padding: 30px;
+    color: rgb(71, 70, 70);
+    margin-left: 1.5%;
+}
+
+div>article{
+    float: left;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-top: 1px;
+    padding: 30px;
+    background-color: white;
+    width: 1000px;
+    height: 670px;
+}
+
+div>article>section1>h1{
+    margin-top: 0.1px;
+    margin-left: 10px;
+}
+
+div>article>section1>p{
+    float: left;
+    padding:15px;
+    width: 800px;
+    background-color:yellow;
+    font-size: 19px;
+    height: 220px;
+    margin-top: 0.5px;
+    margin-left: 30px ;
+}
+
+div>article>section2{
+    float: left;
+    width: 800px;
+    height: 5px;
+    background-color: white;
+    height: 350px;
+}
+
+div>article>section2>h1{
+    margin-top: 0.1px;
+    margin-left: 10px;
+}
+
+div>article>section2>table{
+    border: 1px solid white;
+    float: left;
+    width: 800px;    
+    margin-top: 0.1px;
+    margin-left: 30px ;
+}
+
+div>article>section2>table>thead{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 38px;
+}
+
+.class1{
+    background-color: rgb(192, 232, 248);
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    height: 38px;
+}
+
+.class2{
+    background-color: rgb(102, 196, 233);
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    height: 38px;
+}
+
+aside{
+    float: right;
+    width: 280px;
+    height: 250px; /* only for demonstration, should be removed */
+    background: #b8b5b5;
+    float: left;
+    border: 1px solid gray;
+    margin-left: 40px;
+    margin-top: 1px;
+    padding: 30px;
+}
+aside>h2{
+    font-size: 30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid gray;
+    width: 58%;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    background-color:white;
+    color: black;
+}
+
+footer>h2{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+footer>p{
+    font-size: 20px;
+    margin-left: 30px;
+}
